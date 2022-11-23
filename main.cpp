@@ -5,8 +5,7 @@ int main() {
    int n = 0, primo = 1, secondo = 1;
     cin >> n;
     if (n >= 2) {
-        cout << primo << endl;
-        cout << secondo << endl;
+        cout << primo << endl << secondo << endl;
         for (int i = 1; i < n - 1; i++) {
             int temp = primo;
             primo += secondo;
